@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesuper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Supermercado</title>
+</head>
+<body>
+    <section class="centro">
+        <p>Por la compra de mas de tres docenas se le obsequia una unidad y se le descuenta el quince porciendo de la docena</p>
+        <div class="pared">
+            <h1>Calcular el precio del producto</h1>
+            <label>¿Cuantos productos desea comprar?</label>
+            <input type="number" id="cantidadInput">
+            <label>Digite el precio del producto</label>
+            <input type="number" id="valorInput">
+            <button onclick="calcularCompra()">calcular</button>
+            <p id="totalResultado"></p>
+            <p id="totalCompraResultado"></p>
+            <p id="obsequio"></p>
+        </div>
+    </section>
+    <script src="supermercado.js"></script>
+</body>
+</html>

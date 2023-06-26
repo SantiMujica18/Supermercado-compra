@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>Camisascompra</title>
+</head>
+<body>
+    <section class="centro">
+        <p>Si compra mas de tres camisas se le da el veinte porciento de descuento</p>
+        <p>Si compra menos de tres camisas se le da el diez porciento de descuento</p>
+        <div class="pared">
+            <h1>Calcular compra de camisas</h1>
+            <label>¿Cuantas camisas desea comprar?</label>
+            <input type="number" id="cantidadInput">
+            <label>Digite el precio de la camisa:</label>
+            <input type="number" id="valorInput">
+            <button onclick="calcularCompra()">calcular</button>
+            <p id="totalResultado"></p>
+            <p id="totalCompraResultado"></p>
+        </div>
+    </section>
+    <script src="compraCamisa.js"></script>
+</body>
+</html>
